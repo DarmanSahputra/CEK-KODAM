@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CEK KODAM</title>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="card">
+        <h1>CEK KODAM</h1>
+        <div class="box1" id="box1">
+            <p>cek kodam apa yang melindungi kamu</p>
+            <div class="input-card">
+                <label for="name">Ketik Nama Kalian</label>
+                <input type="text" name="nama" id="nama" placeholder="Ketik...">
+                <label for="asal">Ketik Asal Kota</label>
+                <input type="text" name="asal" id="asal" placeholder="Ketik...">
+                <button type="button" id="cek">Cek</button>
+                
+            </div>
+        </div>
+        <div class="hasil" id="hasil">
+            <p>Saya melihat kodam <span id="nama_k"></span> asal <span id="asal_k"></span> adalah</p>
+            <div class="cek">
+                <h1 id="kodam"></h1>
+            </div>
+            <div class="note">
+                <p>Note : <br> <p id="note" align="center"></p></p>
+                <!-- <span id="msg"></span> -->
+            </div>
+        </div>
+    </div>
+    <a href="">
+        <div class="back" id="back"> <p> <<< Kembali</p> </div>
+    </a>
+    <script src="main.js" async></script>
+</body>
+</html>
